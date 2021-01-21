@@ -1,0 +1,17 @@
+$font-size-root:80px;
+$grid-breakpoints: ('xs': 0,
+  'sm': 600px,
+  'md': 600px,
+  'lg': 1280px,
+  'xl': 1920px);
+$headings: ('h1': ('size': 3.3125rem,
+    'line-height': 1.15em),
+  'h2': ('size': 8rem,
+    'line-height': 1.5em));
+@import '~vuetify/src/styles/settings/variables';
+@import '~vuetify/src/styles/styles.sass';
+
+// $btn-letter-spacing: 10px;
+// @import '~vuetify/src/components/VBtn/_variables';
+
+// @import '~vuetify/src/styles/main.sass';
