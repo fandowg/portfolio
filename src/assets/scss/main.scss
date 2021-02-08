@@ -1,0 +1,23 @@
+// @import "~vuetify/src/styles/settings/_variables";
+
+@import "/src/scss/helpers/mixins";
+
+$grid-breakpoints: map-merge((xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px),
+  $grid-breakpoints);
+
+.mt-banner {
+  // transform: rotate(-6deg);
+  margin-top: 20%;
+}
+.full-height {
+}
+.v-parallax__image.v-parallax__image {
+  @include max(400) {
+    left:-50%;
+    bottom: 0;
+  }
+}

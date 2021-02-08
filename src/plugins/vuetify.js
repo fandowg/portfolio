@@ -1,19 +1,20 @@
 import Vue from 'vue'
-import Vuetify from 'vuetify'
-import 'vuetify/dist/vuetify.min.css'
+import Vuetify from 'vuetify/lib'
+// import 'vuetify/dist/vuetify.min.css'
 
 Vue.use(Vuetify)
 
 const opts = {
   breakpoint: {
     thresholds: {
-      xs: 0,
-      sm: 600,
-      md: 600,
-      lg: 1280,
-      xl: 1920
-    },
-    scrollBarWidth: 24
+      xs: 600,
+      sm: 960,
+      md: 1280,
+      lg: 1920
+
+    }
+    // mobileBreakpoint: 960
+    // scrollBarWidth: 60
   },
   theme: {
     options: {
@@ -22,7 +23,7 @@ const opts = {
     themes: {
       light: {
         primary: '#000', // #E53935
-        secondary: '#FFCDD2', // #FFCDD2
+        secondary: '#28a7c3', // #FFCDD2
         accent: '#3F51B5' // #3F51B5
       }
     }
