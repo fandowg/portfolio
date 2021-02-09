@@ -88,6 +88,12 @@
         :height="parallaxHeight"
         :src="require(`@/assets/images/${parallaxImg}`)"
       >
+       <v-skeleton-loader
+
+       width="100vw"
+       height="90vh"
+          type="image"
+        ></v-skeleton-loader>
         <v-container
           fluid
           class="container d-flex justify-center align-center text-center flex-column black--text mt-banner"
