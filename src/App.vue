@@ -199,7 +199,7 @@
         <v-container class="text-center pt-16">
           <!-- <h2 class="font-weight-bold mb-6 ">作品集</h2> -->
           <v-row>
-            <v-col md="6" class="">
+            <v-col md="6" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5 text-md-h4">
                   CAMELBAK 購物網
@@ -262,7 +262,7 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-            <v-col md="6" class="">
+            <v-col md="6" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5 text-md-h4">
                   巨匠美語官網
@@ -311,7 +311,7 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-            <v-col md="4" class="">
+            <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5"> 師資招募頁 </v-card-title>
                 <p>專案網頁</p>
@@ -353,7 +353,7 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-            <v-col md="4" class="">
+            <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5">
                   巨匠美語課程頁
@@ -397,7 +397,7 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-            <v-col md="4" class="">
+            <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5">
                   巨匠集團介紹頁
@@ -441,7 +441,7 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-            <v-col md="4" class="">
+            <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5">
                   GaragePlay 官網
@@ -494,7 +494,7 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-            <v-col md="4" class="">
+            <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5">
                   KINOPASS 院線通
@@ -539,7 +539,7 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-            <v-col md="4" class="">
+            <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5">
                   KINOSTREAM 雲端影城
@@ -584,7 +584,7 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-            <v-col md="4" class="">
+            <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5">
                   WeTIX 集氣購票網
@@ -627,7 +627,7 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-            <v-col md="4" class="">
+            <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5">
                   樂聲影城 LUX CINEMA 改版
@@ -679,7 +679,7 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-            <v-col md="4" class="">
+            <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5">
                   TAIPEIBO 台北票房網
@@ -724,7 +724,7 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-            <v-col md="4" class="">
+            <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5">
                   GaragePlay Japan
@@ -768,7 +768,7 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-            <v-col md="4" class="">
+            <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5"> FlicksHouse </v-card-title>
                 <p>子品牌的形象頁面</p>
@@ -810,7 +810,7 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-            <v-col md="4" class="">
+            <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5">
                   良友旅行 國內票券館
@@ -854,7 +854,7 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-            <v-col md="4" class="">
+            <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5">
                   良友旅行 國內專區
@@ -1034,7 +1034,7 @@
               </a>
               <a
                 class="text-decoration-none primary--text font-weight-medium d-inline-block"
-                href="https://www.facebook.com/yuhong.fan/"
+                href="https://github.com/fandowg"
                 target="_blank"
               >
                 <v-icon large>mdi-github</v-icon>
