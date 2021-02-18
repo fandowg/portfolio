@@ -3,9 +3,7 @@
     <v-navigation-drawer v-model="drawer" app flat dark>
       <v-list-item two-line>
         <v-list-item-avatar>
-          <img
-            src="https://scontent.ftpe7-1.fna.fbcdn.net/v/t31.0-1/c1043.0.643.643a/s200x200/13116275_1192686910765799_5167399299137142623_o.jpg?_nc_cat=100&ccb=2&_nc_sid=7206a8&_nc_ohc=ZFXkvO4MtBoAX9jZT9B&_nc_ht=scontent.ftpe7-1.fna&tp=28&oh=8170795bd12219b716c40305ad3b4820&oe=602C7B05"
-          />
+          <img src="@/assets/images/avatar.jpg" />
         </v-list-item-avatar>
         <v-list-item-content>
           <v-list-item-title>范宇宏</v-list-item-title>
@@ -88,12 +86,12 @@
         :height="parallaxHeight"
         :src="require(`@/assets/images/${parallaxImg}`)"
       >
-       <v-skeleton-loader
+        <!-- <v-skeleton-loader
 
        width="100vw"
        height="90vh"
           type="image"
-        ></v-skeleton-loader>
+        ></v-skeleton-loader> -->
         <v-container
           fluid
           class="container d-flex justify-center align-center text-center flex-column black--text mt-banner"
@@ -103,7 +101,7 @@
                 </v-avatar>
             </v-app-bar-nav-icon> -->
 
-          <h1 class="display-3 text-uppercase font-weight-bold mb-4">
+          <h1 class="text-md-h2 text-h3 text-uppercase font-weight-bold mb-4">
             Fandow <br />
             PORTFOLIO
           </h1>
@@ -123,14 +121,12 @@
         </v-container>
       </v-parallax>
 
-      <section id="about" class="px-md-6">
-        <v-container class="pt-16">
+      <section id="about" class="px-md-6" >
+        <v-container class="pt-16" transition="fade-transition">
           <v-row>
             <v-col lg="auto" sm="4" class="d-flex justify-center align-center">
               <v-avatar size="200">
-                <img
-                  src="https://scontent.ftpe7-1.fna.fbcdn.net/v/t31.0-1/c1043.0.643.643a/s200x200/13116275_1192686910765799_5167399299137142623_o.jpg?_nc_cat=100&ccb=2&_nc_sid=7206a8&_nc_ohc=ZFXkvO4MtBoAX9jZT9B&_nc_ht=scontent.ftpe7-1.fna&tp=28&oh=8170795bd12219b716c40305ad3b4820&oe=602C7B05"
-                />
+                <img src="@/assets/images/avatar.jpg" />
               </v-avatar>
             </v-col>
             <v-col lg="9" sm="8" cols="12" class="pl-sm-6">
@@ -160,7 +156,7 @@
         </v-container>
       </section>
       <section id="skill" class="px-md-6">
-        <v-container class="pt-16">
+        <v-container class="pt-16" transition="fade-transition">
           <h2 class="font-weight-bold mb-3">前端技能</h2>
           <v-divider class="mb-4"></v-divider>
 
@@ -216,8 +212,8 @@
           </v-row>
         </v-container>
       </section>
-      <section id="portfolio" class="px-md-6">
-        <v-container class="text-center pt-16">
+      <section id="portfolio" class="px-md-6" >
+        <v-container class="text-center pt-16" transition="fade-transition">
           <!-- <h2 class="font-weight-bold mb-6 ">作品集</h2> -->
           <v-row>
             <v-col md="6" class="">
@@ -235,9 +231,11 @@
                 </template> -->
                 <v-img
                   class="elevation-2"
-                  src="@/assets/images/project_1.jpg"
+                  src="@/assets/images/project_1_1.jpg"
                 ></v-img>
-                <v-card-text class="stretch-content px-0 pb-0 black--text subtitle-1">
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
                   以世界知名品牌補水品牌 CAMELBAK
                   為主的購物網站，配合商品，做成整體無邊框設計，可加入購物車，有完整購買流程，產品列表可以多層篩選，產品資料也有製作後台可以上架。
                 </v-card-text>
@@ -277,9 +275,11 @@
 
                 <v-img
                   class="elevation-2"
-                  src="@/assets/images/project_2.jpg"
+                  src="@/assets/images/project_2_1.jpg"
                 ></v-img>
-                <v-card-text class="stretch-content px-0 pb-0 black--text subtitle-1">
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
                   功能完整的語言學習官網，各式課程介紹，部落格與影音內容，以網頁填單
                   → 分校打電話聯繫 →
                   面談報名為主要商業模式，另有學員專區給學員做劃位和請假等等的功能使用。
@@ -309,9 +309,11 @@
                 <p>專案網頁</p>
                 <v-img
                   class="elevation-2"
-                  src="@/assets/images/project_4.jpg"
+                  src="@/assets/images/project_2_2.jpg"
                 ></v-img>
-                <v-card-text class="stretch-content px-0 pb-0 black--text subtitle-1">
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
                   為了招募外籍講師做的專案招募頁面，採全版大背景設計。
                 </v-card-text>
                 <v-card-text class="px-0">
@@ -339,9 +341,11 @@
                 <p>產品介紹頁</p>
                 <v-img
                   class="elevation-2"
-                  src="@/assets/images/project_5.jpg"
+                  src="@/assets/images/project_2_3.jpg"
                 ></v-img>
-                <v-card-text class="stretch-content px-0 pb-0 black--text subtitle-1">
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
                   簡單清楚的課程頁面設計，有做成一系列的課程產品頁面。
                 </v-card-text>
                 <v-card-text class="px-0">
@@ -369,9 +373,11 @@
                 <p>設計感較強的 about 頁面</p>
                 <v-img
                   class="elevation-2"
-                  src="@/assets/images/project_6.jpg"
+                  src="@/assets/images/project_2_3.jpg"
                 ></v-img>
-                <v-card-text class="stretch-content px-0 pb-0 black--text subtitle-1">
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
                   配合設計做出的較複雜刻版的頁面，有中英文的版本，磨練css的作品。
                 </v-card-text>
                 <v-card-text class="px-0">
@@ -399,9 +405,11 @@
                 <p>形象官網，產品資料</p>
                 <v-img
                   class="elevation-2"
-                  src="@/assets/images/project_3.jpg"
+                  src="@/assets/images/project_3_1.jpg"
                 ></v-img>
-                <v-card-text class="stretch-content px-0 pb-0 black--text subtitle-1">
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
                   發行過《屍速列車》《我和我的冠軍女兒》的車庫娛樂，於2017重新規劃官網，採用全版設計，主色調並不明顯，希望凸顯的，是電影本身。
                 </v-card-text>
                 <v-card-text class="px-0">
@@ -433,14 +441,187 @@
             <v-col md="4" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5">
+                  KINOPASS 院線通
+                </v-card-title>
+                <p>訂閱式服務</p>
+                <v-img
+                  class="elevation-2"
+                  src="@/assets/images/project_3_2.jpg"
+                ></v-img>
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
+                 國外行之有年，但是國內還不流行的電影 pass 票，一段時間內電影看到飽的服務，希望能用訂閱制，給一些獨立電影發光的機會。
+                </v-card-text>
+                <v-card-text class="px-0">
+                  <v-chip class="mr-2"> Bootstrap </v-chip>
+                  <v-chip> Jquery </v-chip>
+                </v-card-text>
+                <v-divider></v-divider>
+                <v-card-actions class="px-0 py-4">
+                  <v-btn
+                    color="primary"
+                    class="btn-full"
+                    href="https://fandowg.github.io/kinopass/"
+                    target="_blank"
+                  >
+                    前往
+                  </v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-col>
+            <v-col md="4" class="">
+              <v-card class="text-left" flat>
+                <v-card-title class="px-0 text-h5">
+                  KINOSTREAM 雲端影城
+                </v-card-title>
+                <p>線上影城</p>
+                <v-img
+                  class="elevation-2"
+                  src="@/assets/images/project_3_3.jpg"
+                ></v-img>
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
+                  擁有自己的線上影城，是每一個片商的夢想，不期待像是 Netflix 那樣的規模，只希望能夠放一些有趣的，主題性強的影片。
+                </v-card-text>
+                <v-card-text class="px-0">
+
+                  <v-chip class="mr-2"> Bootstrap </v-chip>
+                  <v-chip> Jquery </v-chip>
+                </v-card-text>
+                <v-divider></v-divider>
+                <v-card-actions class="px-0 py-4">
+                  <v-btn
+                    color="primary"
+                    class="btn-full"
+                    href="https://fandowg.github.io/kinostream/"
+                    target="_blank"
+                  >
+                    前往
+                  </v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-col>
+            <v-col md="4" class="">
+              <v-card class="text-left" flat>
+                <v-card-title class="px-0 text-h5">
+                  WeTIX 集氣購票網
+                </v-card-title>
+                <p>眾籌類型的網站</p>
+                <v-img
+                  class="elevation-2"
+                  src="@/assets/images/project_3_4.jpg"
+                ></v-img>
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
+                  有些電影台灣沒有上映，但是很多影迷很期待能夠在大螢幕看到這些電影，所以網站採用眾籌的方法，只須投票，票數到達門檻，就會和戲院合作，包下某個場次給影迷看這些電影。
+                </v-card-text>
+                <v-card-text class="px-0">
+                  <v-chip class="mr-2"> Bootstrap </v-chip>
+                  <v-chip> Jquery </v-chip>
+                </v-card-text>
+                <v-divider></v-divider>
+                <v-card-actions class="px-0 py-4">
+                  <v-btn
+                    color="primary"
+                    class="btn-full"
+                    href="https://fandowg.github.io/wetix/"
+                    target="_blank"
+                  >
+                    前往
+                  </v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-col>
+            <v-col md="4" class="">
+              <v-card class="text-left" flat>
+                <v-card-title class="px-0 text-h5">
+                  樂聲影城 LUX CINEMA 改版
+                </v-card-title>
+                <p>影城官網，含訂票流程</p>
+                <v-img
+                  class="elevation-2"
+                  src="@/assets/images/project_3_5.jpg"
+                ></v-img>
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
+                  樂聲影城改版的官網，包含完整訂票流程，也可以線上劃位，使用電子票券、優惠券，在台灣的影城裡面算是E化做得很好的。
+                </v-card-text>
+                <v-card-text class="px-0">
+
+                  <v-chip class="mr-2"> 已改版 </v-chip>
+                  <v-chip> Jquery </v-chip>
+                </v-card-text>
+                <v-divider></v-divider>
+                <v-card-actions class="px-0 py-4">
+                  <v-btn
+                    color="primary"
+                    class="btn-full"
+                    href="https://www.luxcinema.com.tw/"
+                    target="_blank"
+                  >
+                    目前網站(改版後)
+                  </v-btn>
+                   <v-btn
+                    color="secondary"
+                    class="btn-full"
+                    href="https://fandowg.github.io/luxcinema/"
+                    target="_blank"
+                  >
+                    原作品
+                  </v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-col>
+            <v-col md="4" class="">
+              <v-card class="text-left" flat>
+                <v-card-title class="px-0 text-h5">
+                  TAIPEIBO 台北票房網
+                </v-card-title>
+                <p>票房資料網站</p>
+                <v-img
+                  class="elevation-2"
+                  src="@/assets/images/project_3_6.jpg"
+                ></v-img>
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
+                  傾向給同業或者影評人使用的票房資訊網站，每日更新票房資料。
+                </v-card-text>
+                <v-card-text class="px-0">
+                  <v-chip class="mr-2"> Bootstrap </v-chip>
+                  <!-- <v-chip class="mr-2"> Bootstrap </v-chip> -->
+                  <v-chip> Jquery </v-chip>
+                </v-card-text>
+                <v-divider></v-divider>
+                <v-card-actions class="px-0 py-4">
+                  <v-btn
+                    color="primary"
+                    class="btn-full"
+                    href="https://fandowg.github.io/taipeibo/"
+                    target="_blank"
+                  >
+                    前往
+                  </v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-col>
+            <v-col md="4" class="">
+              <v-card class="text-left" flat>
+                <v-card-title class="px-0 text-h5">
                   GaragePlay Japan
                 </v-card-title>
                 <p>子品牌的形象頁面</p>
                 <v-img
                   class="elevation-2"
-                  src="@/assets/images/project_8.jpg"
+                  src="@/assets/images/project_3_7.jpg"
                 ></v-img>
-                <v-card-text class="stretch-content px-0 pb-0 black--text subtitle-1">
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
                   日式的網頁設計，以直式的文字與留白呈現，簡單乾淨，強調日本電影的高質感，當產品項目少的時候，也可用這種排版。
                 </v-card-text>
                 <v-card-text class="px-0">
@@ -466,9 +647,11 @@
                 <p>子品牌的形象頁面</p>
                 <v-img
                   class="elevation-2"
-                  src="@/assets/images/project_7.jpg"
+                  src="@/assets/images/project_3_8.jpg"
                 ></v-img>
-                <v-card-text class="stretch-content px-0 pb-0 black--text subtitle-1">
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
                   藝術片不再遙不可及，用最簡單的方式告訴你藝術電影的深奧，本網站採用不規則拼貼的設計，帶有文青氣息。
                 </v-card-text>
                 <v-card-text class="px-0">
@@ -496,9 +679,11 @@
                 <p>獨立產品館</p>
                 <v-img
                   class="elevation-2"
-                  src="@/assets/images/project_10.jpg"
+                  src="@/assets/images/project_4_1.jpg"
                 ></v-img>
-                <v-card-text class="stretch-content px-0 pb-0 black--text subtitle-1">
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
                   專門販售國內票券的旅行社旗下獨立產品特區，有自己的購買流程。
                 </v-card-text>
                 <v-card-text class="px-0">
@@ -526,9 +711,11 @@
                 <p>獨立產品館</p>
                 <v-img
                   class="elevation-2"
-                  src="@/assets/images/project_11.jpg"
+                  src="@/assets/images/project_4_2.jpg"
                 ></v-img>
-                <v-card-text class="stretch-content px-0 pb-0 black--text subtitle-1">
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
                   旅行社的國內旅遊館，按照縣市分類，有多層篩選。
                 </v-card-text>
                 <v-card-text class="px-0">
@@ -552,7 +739,7 @@
         </v-container>
       </section>
       <section id="job-experience" class="px-md-6 grey lighten-5">
-        <v-container class="py-8">
+        <v-container class="py-8" transition="fade-transition">
           <h2 class="font-weight-bold mb-6">工作經歷</h2>
           <!-- <v-divider class="mb-4"></v-divider> -->
           <v-timeline :dense="$vuetify.breakpoint.smAndDown">
@@ -560,7 +747,10 @@
               <span slot="opposite">2018</span>
               <v-card class="elevation-2">
                 <v-card-title>
-                  <h3 class="text-md-h5 text-h6"><span class="secondary--text">網站設計師</span>  <span class="d-inline-block">巨匠電腦</span></h3>
+                  <h3 class="text-md-h5 text-h6">
+                    <span class="secondary--text">網站設計師</span>
+                    <span class="d-inline-block">巨匠電腦</span>
+                  </h3>
                 </v-card-title>
                 <v-card-text class="body-1">
                   <p>
@@ -586,7 +776,10 @@
               <span slot="opposite">2016</span>
               <v-card class="elevation-2">
                 <v-card-title>
-                  <h3 class="text-md-h5 text-h6"><span class="secondary--text">網頁設計師</span> <span class="d-inline-block">車庫娛樂</span></h3>
+                  <h3 class="text-md-h5 text-h6">
+                    <span class="secondary--text">網頁設計師</span>
+                    <span class="d-inline-block">車庫娛樂</span>
+                  </h3>
                 </v-card-title>
                 <v-card-text class="body-1">
                   <p>
@@ -605,7 +798,10 @@
               <span slot="opposite">2011</span>
               <v-card class="elevation-2">
                 <v-card-title>
-                  <h3 class="text-md-h5 text-h6"><span class="secondary--text">網站企劃與文案</span> <span class="d-inline-block">良友旅行社</span></h3>
+                  <h3 class="text-md-h5 text-h6">
+                    <span class="secondary--text">網站企劃與文案</span>
+                    <span class="d-inline-block">良友旅行社</span>
+                  </h3>
                 </v-card-title>
                 <v-card-text class="body-1">
                   <p>
@@ -625,7 +821,10 @@
               <span slot="opposite">2009</span>
               <v-card class="elevation-2">
                 <v-card-title class="headline">
-                  <h3 class="text-md-h5 text-h6"><span class="secondary--text">簽約歌詞作者</span> <span class="d-inline-block">福茂音樂</span></h3>
+                  <h3 class="text-md-h5 text-h6">
+                    <span class="secondary--text">簽約歌詞作者</span>
+                    <span class="d-inline-block">福茂音樂</span>
+                  </h3>
                 </v-card-title>
                 <v-card-text class="body-1">
                   <p>
@@ -647,7 +846,7 @@
         </v-container>
       </section>
       <section id="contact" class="px-md-6 grey lighten-3">
-        <v-container class="py-8 pb-16">
+        <v-container class="py-8 pb-16" transition="fade-transition">
           <h2 class="font-weight-bold mb-6" style="display: inline-block">
             聯絡方式
           </h2>
@@ -697,7 +896,7 @@ export default {
     loading: true,
     selection: 1,
     sticky: false,
-    parallaxHeight: 700, // window.innerHeight,
+    parallaxHeight: 600, // window.innerHeight,
     width: window.innerWidth,
     parallaxImg: 'top.jpg'
   }),
@@ -725,9 +924,9 @@ export default {
     changeHeight () {
       // console.log(this.$vuetify.breakpoint.width)
       if (this.$vuetify.breakpoint.mobile) {
-        this.parallaxHeight = 600
+        this.parallaxHeight = 500
       } else {
-        this.parallaxHeight = 700
+        this.parallaxHeight = 600
       }
     },
     currentWidth () {
@@ -803,21 +1002,20 @@ export default {
 // .row.row{
 //   align-items: stretch;
 // }
-.col.col{
+.col.col {
   display: flex;
   // align-items: stretch;
 }
-.v-image.v-image{
-  flex:0 0 auto;
+.v-image.v-image {
+  flex: 0 0 auto;
 }
-.v-card.v-card{
+.v-card.v-card {
   display: flex;
   flex-direction: column;
 }
 
-.stretch-content{
+.stretch-content {
   flex: 1 1 auto !important;
-
 }
 // .container-md.container-md {
 //   max-width: 960px;
