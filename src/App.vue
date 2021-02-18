@@ -72,35 +72,18 @@
       <v-toolbar-title>Fandow</v-toolbar-title>
       <v-spacer></v-spacer>
     </v-app-bar>
-    <!-- <v-toolbar-title>Fandow</v-toolbar-title> -->
 
     <v-main id="main" style="padding-top: 0">
-      <!-- <v-btn @click="drawer = !drawer" color="secondary" fab depressed small class="mobile-toggle">
-          <v-icon>
-            mdi-menu
-          </v-icon>
-        </v-btn> -->
       <v-parallax
         class="d-flex justify-center align-center"
         app
         :height="parallaxHeight"
         :src="require(`@/assets/images/${parallaxImg}`)"
       >
-        <!-- <v-skeleton-loader
-
-       width="100vw"
-       height="90vh"
-          type="image"
-        ></v-skeleton-loader> -->
         <v-container
           fluid
           class="container d-flex justify-center align-center text-center flex-column black--text mt-banner"
         >
-          <!-- <v-app-bar-nav-icon @click="drawer = !drawer" color="white">
-              <v-avatar color="secondary" class="mobile-toggle">
-                </v-avatar>
-            </v-app-bar-nav-icon> -->
-
           <h1 class="text-md-h2 text-h3 text-uppercase font-weight-bold mb-4">
             Fandow <br />
             PORTFOLIO
@@ -121,8 +104,8 @@
         </v-container>
       </v-parallax>
 
-      <section id="about" class="px-md-6" >
-        <v-container class="pt-16" transition="fade-transition">
+      <section id="about" class="px-md-6">
+        <v-container class="pt-16">
           <v-row>
             <v-col lg="auto" sm="4" class="d-flex justify-center align-center">
               <v-avatar size="200">
@@ -156,7 +139,7 @@
         </v-container>
       </section>
       <section id="skill" class="px-md-6">
-        <v-container class="pt-16" transition="fade-transition">
+        <v-container class="pt-16">
           <h2 class="font-weight-bold mb-3">前端技能</h2>
           <v-divider class="mb-4"></v-divider>
 
@@ -212,8 +195,8 @@
           </v-row>
         </v-container>
       </section>
-      <section id="portfolio" class="px-md-6" >
-        <v-container class="text-center pt-16" transition="fade-transition">
+      <section id="portfolio" class="px-md-6">
+        <v-container class="text-center pt-16">
           <!-- <h2 class="font-weight-bold mb-6 ">作品集</h2> -->
           <v-row>
             <v-col md="6" class="">
@@ -232,7 +215,20 @@
                 <v-img
                   class="elevation-2"
                   src="@/assets/images/project_1_1.jpg"
-                ></v-img>
+                >
+                  <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template>
+                </v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -276,7 +272,19 @@
                 <v-img
                   class="elevation-2"
                   src="@/assets/images/project_2_1.jpg"
-                ></v-img>
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -310,7 +318,19 @@
                 <v-img
                   class="elevation-2"
                   src="@/assets/images/project_2_2.jpg"
-                ></v-img>
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -342,7 +362,19 @@
                 <v-img
                   class="elevation-2"
                   src="@/assets/images/project_2_3.jpg"
-                ></v-img>
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -374,7 +406,19 @@
                 <v-img
                   class="elevation-2"
                   src="@/assets/images/project_2_4.jpg"
-                ></v-img>
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -406,7 +450,19 @@
                 <v-img
                   class="elevation-2"
                   src="@/assets/images/project_3_1.jpg"
-                ></v-img>
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -447,11 +503,24 @@
                 <v-img
                   class="elevation-2"
                   src="@/assets/images/project_3_2.jpg"
-                ></v-img>
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
-                 國外行之有年，但是國內還不流行的電影 pass 票，一段時間內電影看到飽的服務，希望能用訂閱制，給一些獨立電影發光的機會。
+                  國外行之有年，但是國內還不流行的電影 pass
+                  票，一段時間內電影看到飽的服務，希望能用訂閱制，給一些獨立電影發光的機會。
                 </v-card-text>
                 <v-card-text class="px-0">
                   <v-chip class="mr-2"> Bootstrap </v-chip>
@@ -479,14 +548,26 @@
                 <v-img
                   class="elevation-2"
                   src="@/assets/images/project_3_3.jpg"
-                ></v-img>
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
-                  擁有自己的線上影城，是每一個片商的夢想，不期待像是 Netflix 那樣的規模，只希望能夠放一些有趣的，主題性強的影片。
+                  擁有自己的線上影城，是每一個片商的夢想，不期待像是 Netflix
+                  那樣的規模，只希望能夠放一些有趣的，主題性強的影片。
                 </v-card-text>
                 <v-card-text class="px-0">
-
                   <v-chip class="mr-2"> Bootstrap </v-chip>
                   <v-chip> Jquery </v-chip>
                 </v-card-text>
@@ -512,7 +593,18 @@
                 <v-img
                   class="elevation-2"
                   src="@/assets/images/project_3_4.jpg"
-                ></v-img>
+                ><template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -544,14 +636,25 @@
                 <v-img
                   class="elevation-2"
                   src="@/assets/images/project_3_5.jpg"
-                ></v-img>
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
                   樂聲影城改版的官網，包含完整訂票流程，也可以線上劃位，使用電子票券、優惠券，在台灣的影城裡面算是E化做得很好的。
                 </v-card-text>
                 <v-card-text class="px-0">
-
                   <v-chip class="mr-2"> 已改版 </v-chip>
                   <v-chip> Jquery </v-chip>
                 </v-card-text>
@@ -565,7 +668,7 @@
                   >
                     目前網站(改版後)
                   </v-btn>
-                   <v-btn
+                  <v-btn
                     color="secondary"
                     class="btn-full"
                     href="https://fandowg.github.io/luxcinema/"
@@ -585,7 +688,19 @@
                 <v-img
                   class="elevation-2"
                   src="@/assets/images/project_3_6.jpg"
-                ></v-img>
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -618,7 +733,19 @@
                 <v-img
                   class="elevation-2"
                   src="@/assets/images/project_3_7.jpg"
-                ></v-img>
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -648,7 +775,19 @@
                 <v-img
                   class="elevation-2"
                   src="@/assets/images/project_3_8.jpg"
-                ></v-img>
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -680,7 +819,19 @@
                 <v-img
                   class="elevation-2"
                   src="@/assets/images/project_4_1.jpg"
-                ></v-img>
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -712,7 +863,19 @@
                 <v-img
                   class="elevation-2"
                   src="@/assets/images/project_4_2.jpg"
-                ></v-img>
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -739,7 +902,7 @@
         </v-container>
       </section>
       <section id="job-experience" class="px-md-6 grey lighten-5">
-        <v-container class="py-8" transition="fade-transition">
+        <v-container class="py-8">
           <h2 class="font-weight-bold mb-6">工作經歷</h2>
           <!-- <v-divider class="mb-4"></v-divider> -->
           <v-timeline :dense="$vuetify.breakpoint.smAndDown">
@@ -846,7 +1009,7 @@
         </v-container>
       </section>
       <section id="contact" class="px-md-6 grey lighten-3">
-        <v-container class="py-8 pb-16" transition="fade-transition">
+        <v-container class="py-8 pb-16">
           <h2 class="font-weight-bold mb-6" style="display: inline-block">
             聯絡方式
           </h2>
@@ -881,10 +1044,6 @@
         </v-container>
       </section>
     </v-main>
-    <!-- <v-footer >
-      努力不一定會成功，不努力會很輕鬆
-
-    </v-footer> -->
   </v-app>
 </template>
 <script>
@@ -896,17 +1055,14 @@ export default {
     loading: true,
     selection: 1,
     sticky: false,
-    parallaxHeight: 600, // window.innerHeight,
+    parallaxHeight: 600,
     width: window.innerWidth,
     parallaxImg: 'top.jpg'
   }),
   mounted () {
-    console.log(this)
-    console.log(this.$vuetify)
     this.changeHeight()
     window.addEventListener('resize', this.changeHeight, { passive: true })
     window.addEventListener('resize', this.currentWidth)
-    // this.parallaxHeight
   },
   watch: {
     width: {
@@ -922,7 +1078,6 @@ export default {
   },
   methods: {
     changeHeight () {
-      // console.log(this.$vuetify.breakpoint.width)
       if (this.$vuetify.breakpoint.mobile) {
         this.parallaxHeight = 500
       } else {
@@ -935,38 +1090,18 @@ export default {
     gotoSection (id) {
       this.$vuetify.goTo(id, {
         offset: 50
-        // duration: 500,
-        // easing: 'linear'
       })
       if (this.$vuetify.breakpoint.mobile) {
         this.drawer = false
       }
     }
   }
-  // watch: {
-  //   group () {
-  //     this.drawer = false
-  //   }
-  // },
-  // methods: {
-  //   onClick () {
-  //     // Perform an action
-  //   }
-  // }
 }
 </script>
 <style lang="scss">
-// @import "@/scss/main";
 @import "~vuetify/src/styles/settings/variables";
 @import "@/assets/scss/helpers/mixins";
-// $grid-breakpoints: map-merge((xs: 0,
-//     sm: 576px,
-//     md: 768px,
-//     lg: 992px,
-//     xl: 1200px),
-//   $grid-breakpoints);
 .mt-banner {
-  // transform: rotate(-6deg);
   margin-top: 20%;
 }
 .full-height {
@@ -999,12 +1134,8 @@ export default {
   position: absolute;
   left: 16px;
 }
-// .row.row{
-//   align-items: stretch;
-// }
 .col.col {
   display: flex;
-  // align-items: stretch;
 }
 .v-image.v-image {
   flex: 0 0 auto;
@@ -1017,13 +1148,4 @@ export default {
 .stretch-content {
   flex: 1 1 auto !important;
 }
-// .container-md.container-md {
-//   max-width: 960px;
-// }
-// .v-parallax{
-//   height: 100% !important;
-//   img{
-// height: 100%;
-//   }
-// }
 </style>
