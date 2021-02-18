@@ -373,7 +373,7 @@
                 <p>設計感較強的 about 頁面</p>
                 <v-img
                   class="elevation-2"
-                  src="@/assets/images/project_2_3.jpg"
+                  src="@/assets/images/project_2_4.jpg"
                 ></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
