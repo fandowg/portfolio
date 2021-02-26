@@ -1,7 +1,7 @@
 module.exports = {
   publicPath: './',
   css: {
-    extract: false
+    // extract: false
   },
   chainWebpack: config => {
     config.module

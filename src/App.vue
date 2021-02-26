@@ -313,136 +313,6 @@
             </v-col>
             <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
-                <v-card-title class="px-0 text-h5"> 師資招募頁 </v-card-title>
-                <p>專案網頁</p>
-                <v-img
-                  class="elevation-2"
-                  src="@/assets/images/project_2_2.jpg"
-                >
-                <template v-slot:placeholder>
-                    <v-row
-                      class="fill-height ma-0"
-                      align="center"
-                      justify="center"
-                    >
-                      <v-progress-circular
-                        indeterminate
-                        color="grey lighten-5"
-                      ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
-                <v-card-text
-                  class="stretch-content px-0 pb-0 black--text subtitle-1"
-                >
-                  為了招募外籍講師做的專案招募頁面，採全版大背景設計。
-                </v-card-text>
-                <v-card-text class="px-0">
-                  <v-chip class="mr-2"> Bootstrap </v-chip>
-                  <v-chip> Jquery </v-chip>
-                </v-card-text>
-                <v-divider></v-divider>
-                <v-card-actions class="px-0 py-4">
-                  <v-btn
-                    color="primary"
-                    class="btn-full"
-                    href="https://www.soeasyedu.com.tw/about-gjun-and-recruiting"
-                    target="_blank"
-                  >
-                    前往
-                  </v-btn>
-                </v-card-actions>
-              </v-card>
-            </v-col>
-            <v-col md="4" cols="12" class="">
-              <v-card class="text-left" flat>
-                <v-card-title class="px-0 text-h5">
-                  巨匠美語課程頁
-                </v-card-title>
-                <p>產品介紹頁</p>
-                <v-img
-                  class="elevation-2"
-                  src="@/assets/images/project_2_3.jpg"
-                >
-                <template v-slot:placeholder>
-                    <v-row
-                      class="fill-height ma-0"
-                      align="center"
-                      justify="center"
-                    >
-                      <v-progress-circular
-                        indeterminate
-                        color="grey lighten-5"
-                      ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
-                <v-card-text
-                  class="stretch-content px-0 pb-0 black--text subtitle-1"
-                >
-                  簡單清楚的課程頁面設計，有做成一系列的課程產品頁面。
-                </v-card-text>
-                <v-card-text class="px-0">
-                  <v-chip class="mr-2"> Bootstrap </v-chip>
-                  <v-chip> Jquery </v-chip>
-                </v-card-text>
-                <v-divider></v-divider>
-                <v-card-actions class="px-0 py-4">
-                  <v-btn
-                    color="primary"
-                    class="btn-full"
-                    href="https://www.soeasyedu.com.tw/life-english"
-                    target="_blank"
-                  >
-                    前往
-                  </v-btn>
-                </v-card-actions>
-              </v-card>
-            </v-col>
-            <v-col md="4" cols="12" class="">
-              <v-card class="text-left" flat>
-                <v-card-title class="px-0 text-h5">
-                  巨匠集團介紹頁
-                </v-card-title>
-                <p>設計感較強的 about 頁面</p>
-                <v-img
-                  class="elevation-2"
-                  src="@/assets/images/project_2_4.jpg"
-                >
-                <template v-slot:placeholder>
-                    <v-row
-                      class="fill-height ma-0"
-                      align="center"
-                      justify="center"
-                    >
-                      <v-progress-circular
-                        indeterminate
-                        color="grey lighten-5"
-                      ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
-                <v-card-text
-                  class="stretch-content px-0 pb-0 black--text subtitle-1"
-                >
-                  配合設計做出的較複雜刻版的頁面，有中英文的版本，磨練css的作品。
-                </v-card-text>
-                <v-card-text class="px-0">
-                  <v-chip class="mr-2"> 純切版 </v-chip>
-                  <v-chip> Jquery </v-chip>
-                </v-card-text>
-                <v-divider></v-divider>
-                <v-card-actions class="px-0 py-4">
-                  <v-btn
-                    color="primary"
-                    class="btn-full"
-                    href="https://www.soeasyedu.com.tw/about-gjun"
-                    target="_blank"
-                  >
-                    前往
-                  </v-btn>
-                </v-card-actions>
-              </v-card>
-            </v-col>
-            <v-col md="4" cols="12" class="">
-              <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5">
                   GaragePlay 官網
                 </v-card-title>
@@ -724,6 +594,136 @@
                 </v-card-actions>
               </v-card>
             </v-col>
+             <v-col md="4" cols="12" class="">
+              <v-card class="text-left" flat>
+                <v-card-title class="px-0 text-h5"> 師資招募頁 </v-card-title>
+                <p>專案網頁</p>
+                <v-img
+                  class="elevation-2"
+                  src="@/assets/images/project_2_2.jpg"
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
+                  為了招募外籍講師做的專案招募頁面，採全版大背景設計。
+                </v-card-text>
+                <v-card-text class="px-0">
+                  <v-chip class="mr-2"> Bootstrap </v-chip>
+                  <v-chip> Jquery </v-chip>
+                </v-card-text>
+                <v-divider></v-divider>
+                <v-card-actions class="px-0 py-4">
+                  <v-btn
+                    color="primary"
+                    class="btn-full"
+                    href="https://www.soeasyedu.com.tw/about-gjun-and-recruiting"
+                    target="_blank"
+                  >
+                    前往
+                  </v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-col>
+            <v-col md="4" cols="12" class="">
+              <v-card class="text-left" flat>
+                <v-card-title class="px-0 text-h5">
+                  巨匠美語課程頁
+                </v-card-title>
+                <p>產品介紹頁</p>
+                <v-img
+                  class="elevation-2"
+                  src="@/assets/images/project_2_3.jpg"
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
+                  簡單清楚的課程頁面設計，有做成一系列的課程產品頁面。
+                </v-card-text>
+                <v-card-text class="px-0">
+                  <v-chip class="mr-2"> Bootstrap </v-chip>
+                  <v-chip> Jquery </v-chip>
+                </v-card-text>
+                <v-divider></v-divider>
+                <v-card-actions class="px-0 py-4">
+                  <v-btn
+                    color="primary"
+                    class="btn-full"
+                    href="https://www.soeasyedu.com.tw/life-english"
+                    target="_blank"
+                  >
+                    前往
+                  </v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-col>
+            <v-col md="4" cols="12" class="">
+              <v-card class="text-left" flat>
+                <v-card-title class="px-0 text-h5">
+                  巨匠集團介紹頁
+                </v-card-title>
+                <p>設計感較強的 about 頁面</p>
+                <v-img
+                  class="elevation-2"
+                  src="@/assets/images/project_2_4.jpg"
+                >
+                <template v-slot:placeholder>
+                    <v-row
+                      class="fill-height ma-0"
+                      align="center"
+                      justify="center"
+                    >
+                      <v-progress-circular
+                        indeterminate
+                        color="grey lighten-5"
+                      ></v-progress-circular>
+                    </v-row>
+                  </template></v-img>
+                <v-card-text
+                  class="stretch-content px-0 pb-0 black--text subtitle-1"
+                >
+                  配合設計做出的較複雜刻版的頁面，有中英文的版本，磨練css的作品。
+                </v-card-text>
+                <v-card-text class="px-0">
+                  <v-chip class="mr-2"> 純切版 </v-chip>
+                  <v-chip> Jquery </v-chip>
+                </v-card-text>
+                <v-divider></v-divider>
+                <v-card-actions class="px-0 py-4">
+                  <v-btn
+                    color="primary"
+                    class="btn-full"
+                    href="https://www.soeasyedu.com.tw/about-gjun"
+                    target="_blank"
+                  >
+                    前往
+                  </v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-col>
             <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5">
@@ -918,7 +918,7 @@
                 <v-card-text class="body-1">
                   <p>
                     主管看重我是具有企劃經驗的網頁設計師，將巨匠美語的網站改版交給我負責，我也不負眾望的完成改版，期間學習
-                    SEO 相關知識，將網站 SEO 優化，提升自然流量 50%，增加約 20%
+                    SEO 相關知識，將網站 SEO 優化，提升自然流量 50%，增加約 30%
                     的網單目標，30% 的營收目標(2018年度)。
                   </p>
                   <p>
@@ -968,10 +968,10 @@
                 </v-card-title>
                 <v-card-text class="body-1">
                   <p>
-                    網站企劃的工作內容就是網站行銷內容的提案，文案和執行，比如季節性促銷活動、網站旅遊專題、網站新功能版型規劃等等，因為公司沒有設計，所以我們很多網頁的主視覺發包出去之後我們拿回來都要自己改，所以對於網頁設計有一些基礎，很多小專案的視覺也都是自己做。
+                    網站企劃的工作內容就是網站行銷內容的提案、文案和執行，比如季節性促銷活動、網站旅遊專題、網站新功能版型規劃等等，因為公司沒有設計，所以我們很多網頁的主視覺發包出去之後我們拿回來都要自己改，所以對於網頁設計有一些基礎，很多小專案的視覺也都是自己做。
                   </p>
                   <p>
-                    比較大的工作項目是「沒是買買購物網」的成立，這個網站從一開始的發想、品牌概念、到後來的網站流程等等都是我一個人包辦，後期還有去談商品進貨等等的工作內容，雖然網站最後爛尾了，但是至少我有做過網站整體內容大規畫的經驗。
+                    比較大的工作項目是「沒事買買購物網」的成立，這個網站從一開始的發想、品牌概念、到後來的網站流程等等都是我一個人包辦，後期還有去談商品進貨等等的工作內容，雖然網站最後爛尾了，但是至少我有做過網站整體內容大規劃的經驗。
                     期間還有寫廣播廣告文案、製作形象小冊子、吉祥物設計等等的其他工作。
                   </p>
                   <h4 class="body-1 secondary--text">
