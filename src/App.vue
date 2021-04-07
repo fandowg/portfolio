@@ -117,11 +117,18 @@
               <v-divider class="mb-4"></v-divider>
               <v-responsive>
                 <p>
-                  我是
-                  范宇宏，熱愛創新與學習，從事網頁設計已有五年的經歷。做過網站PM、行銷企劃、網頁與APP設計，熟悉網站開發的流程。
+                  我是 范宇宏，熱愛創新與學習，擔任網頁設計師已有 5
+                  年資歷，非常熟悉 RWD 網頁製作，期間學習前端相關技能，使用 Vue
+                  開發 SPA 網站。
                 </p>
                 <p>
-                  能獨立作業並與團隊溝通，解決過開發過程中的各種問題，現在突破極限轉戰前端工程師，期待能為團隊帶來最大的貢獻。
+                  擔任過網站開發團隊的不同職位，從網站企劃 → 網頁設計師 →
+                  前端工程師，熟悉網站開發流程，能了解業主的需求，並快速的解決問題。
+                </p>
+                <p>
+                  此外，我過去也是華語歌詞作者，賣出 4
+                  首歌詞，對我來說從寫歌詞到寫程式，都是創作，歌詞和 coding
+                  沒什麼不同。
                 </p>
 
                 <v-btn
@@ -273,7 +280,7 @@
                   class="elevation-2"
                   src="@/assets/images/project_2_1.jpg"
                 >
-                <template v-slot:placeholder>
+                  <template v-slot:placeholder>
                     <v-row
                       class="fill-height ma-0"
                       align="center"
@@ -283,8 +290,8 @@
                         indeterminate
                         color="grey lighten-5"
                       ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
+                    </v-row> </template
+                ></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -321,7 +328,7 @@
                   class="elevation-2"
                   src="@/assets/images/project_3_1.jpg"
                 >
-                <template v-slot:placeholder>
+                  <template v-slot:placeholder>
                     <v-row
                       class="fill-height ma-0"
                       align="center"
@@ -331,8 +338,8 @@
                         indeterminate
                         color="grey lighten-5"
                       ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
+                    </v-row> </template
+                ></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -374,7 +381,7 @@
                   class="elevation-2"
                   src="@/assets/images/project_3_2.jpg"
                 >
-                <template v-slot:placeholder>
+                  <template v-slot:placeholder>
                     <v-row
                       class="fill-height ma-0"
                       align="center"
@@ -384,8 +391,8 @@
                         indeterminate
                         color="grey lighten-5"
                       ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
+                    </v-row> </template
+                ></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -419,7 +426,7 @@
                   class="elevation-2"
                   src="@/assets/images/project_3_3.jpg"
                 >
-                <template v-slot:placeholder>
+                  <template v-slot:placeholder>
                     <v-row
                       class="fill-height ma-0"
                       align="center"
@@ -429,8 +436,8 @@
                         indeterminate
                         color="grey lighten-5"
                       ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
+                    </v-row> </template
+                ></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -460,10 +467,8 @@
                   WeTIX 集氣購票網
                 </v-card-title>
                 <p>眾籌類型的網站</p>
-                <v-img
-                  class="elevation-2"
-                  src="@/assets/images/project_3_4.jpg"
-                ><template v-slot:placeholder>
+                <v-img class="elevation-2" src="@/assets/images/project_3_4.jpg"
+                  ><template v-slot:placeholder>
                     <v-row
                       class="fill-height ma-0"
                       align="center"
@@ -473,8 +478,8 @@
                         indeterminate
                         color="grey lighten-5"
                       ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
+                    </v-row> </template
+                ></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -507,7 +512,7 @@
                   class="elevation-2"
                   src="@/assets/images/project_3_5.jpg"
                 >
-                <template v-slot:placeholder>
+                  <template v-slot:placeholder>
                     <v-row
                       class="fill-height ma-0"
                       align="center"
@@ -517,8 +522,8 @@
                         indeterminate
                         color="grey lighten-5"
                       ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
+                    </v-row> </template
+                ></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -559,7 +564,7 @@
                   class="elevation-2"
                   src="@/assets/images/project_3_6.jpg"
                 >
-                <template v-slot:placeholder>
+                  <template v-slot:placeholder>
                     <v-row
                       class="fill-height ma-0"
                       align="center"
@@ -569,8 +574,8 @@
                         indeterminate
                         color="grey lighten-5"
                       ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
+                    </v-row> </template
+                ></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -594,7 +599,7 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-             <v-col md="4" cols="12" class="">
+            <v-col md="4" cols="12" class="">
               <v-card class="text-left" flat>
                 <v-card-title class="px-0 text-h5"> 師資招募頁 </v-card-title>
                 <p>專案網頁</p>
@@ -602,7 +607,7 @@
                   class="elevation-2"
                   src="@/assets/images/project_2_2.jpg"
                 >
-                <template v-slot:placeholder>
+                  <template v-slot:placeholder>
                     <v-row
                       class="fill-height ma-0"
                       align="center"
@@ -612,8 +617,8 @@
                         indeterminate
                         color="grey lighten-5"
                       ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
+                    </v-row> </template
+                ></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -646,7 +651,7 @@
                   class="elevation-2"
                   src="@/assets/images/project_2_3.jpg"
                 >
-                <template v-slot:placeholder>
+                  <template v-slot:placeholder>
                     <v-row
                       class="fill-height ma-0"
                       align="center"
@@ -656,8 +661,8 @@
                         indeterminate
                         color="grey lighten-5"
                       ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
+                    </v-row> </template
+                ></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -690,7 +695,7 @@
                   class="elevation-2"
                   src="@/assets/images/project_2_4.jpg"
                 >
-                <template v-slot:placeholder>
+                  <template v-slot:placeholder>
                     <v-row
                       class="fill-height ma-0"
                       align="center"
@@ -700,8 +705,8 @@
                         indeterminate
                         color="grey lighten-5"
                       ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
+                    </v-row> </template
+                ></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -734,7 +739,7 @@
                   class="elevation-2"
                   src="@/assets/images/project_3_7.jpg"
                 >
-                <template v-slot:placeholder>
+                  <template v-slot:placeholder>
                     <v-row
                       class="fill-height ma-0"
                       align="center"
@@ -744,8 +749,8 @@
                         indeterminate
                         color="grey lighten-5"
                       ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
+                    </v-row> </template
+                ></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -776,7 +781,7 @@
                   class="elevation-2"
                   src="@/assets/images/project_3_8.jpg"
                 >
-                <template v-slot:placeholder>
+                  <template v-slot:placeholder>
                     <v-row
                       class="fill-height ma-0"
                       align="center"
@@ -786,8 +791,8 @@
                         indeterminate
                         color="grey lighten-5"
                       ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
+                    </v-row> </template
+                ></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -820,7 +825,7 @@
                   class="elevation-2"
                   src="@/assets/images/project_4_1.jpg"
                 >
-                <template v-slot:placeholder>
+                  <template v-slot:placeholder>
                     <v-row
                       class="fill-height ma-0"
                       align="center"
@@ -830,8 +835,8 @@
                         indeterminate
                         color="grey lighten-5"
                       ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
+                    </v-row> </template
+                ></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -864,7 +869,7 @@
                   class="elevation-2"
                   src="@/assets/images/project_4_2.jpg"
                 >
-                <template v-slot:placeholder>
+                  <template v-slot:placeholder>
                     <v-row
                       class="fill-height ma-0"
                       align="center"
@@ -874,8 +879,8 @@
                         indeterminate
                         color="grey lighten-5"
                       ></v-progress-circular>
-                    </v-row>
-                  </template></v-img>
+                    </v-row> </template
+                ></v-img>
                 <v-card-text
                   class="stretch-content px-0 pb-0 black--text subtitle-1"
                 >
@@ -1100,7 +1105,7 @@ export default {
 </script>
 <style lang="scss">
 @import "~vuetify/src/styles/settings/variables";
-@import "@/assets/scss/helpers/mixins";
+@import "@/assets/scss/helpers/_mixins";
 .mt-banner {
   margin-top: 20%;
 }
