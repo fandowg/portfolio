@@ -1097,7 +1097,7 @@ export default {
 </script>
  <style lang="scss">
 @import "~vuetify/src/styles/settings/variables";
-@import "@/assets/scss/helpers/_mixins";
+@import "@/assets/scss/helpers/mixins";
 .mt-banner {
   margin-top: 20%;
 }

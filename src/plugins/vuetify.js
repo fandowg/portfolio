@@ -8,7 +8,7 @@ const opts = {
   breakpoint: {
     thresholds: {
       xs: 600,
-      sm: 960,
+      sm: 800,
       md: 1280,
       lg: 1920
 
